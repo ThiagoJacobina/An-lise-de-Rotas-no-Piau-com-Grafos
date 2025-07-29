@@ -55,4 +55,22 @@ A lógica da viagem:O programa usa uma técnica chamada busca em profundidade (D
 Ele marca as cidades por onde passa para não se perder em loops e guarda cada caminho que chega em Parnaíba.
 Enquanto explora, ele acompanha qual caminho tem menos paradas (mais curto) e qual passa por mais cidades (mais longo).
 
+## Função Principal: `findPathsFromCorrenteToParnaiba(Graph G)`
+
+Essa é a **função que dá vida ao projeto**. Ela é quem organiza toda a viagem — como se fosse o guia turístico que planeja o roteiro de Corrente até Parnaíba.
+
+## O que ela faz?
+
+- Primeiro, ela arruma a mochila: cria as listas que vão guardar os caminhos visitados e define onde começar.
+- Em seguida, chama uma ajudante (`findAllPaths`) que vai explorar todas as rotas possíveis, como um GPS testando cada estrada entre as cidades.
+- Depois, quando já percorreu tudo, ela **mostra todos os caminhos possíveis**, como um diário de viagem.
+- Por fim, ela destaca dois momentos marcantes da jornada:
+  -  O **caminho mais curto** (a rota mais direta).
+  -  O **caminho mais longo** (a rota mais exploradora).
+
+### Por que ela é especial?
+
+Sem essa função, o grafo seria só um mapa parado. É ela quem transforma as conexões entre cidades em uma verdadeira **aventura computacional**, explorando, comparando e apresentando as melhores rotas de forma inteligente.
+
+---
 
